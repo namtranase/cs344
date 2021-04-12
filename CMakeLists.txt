@@ -22,7 +22,7 @@ if(CUDA_FOUND)
   set(CUDA_NVCC_FLAGS_DEBUG ${CUDA_NVCC_FLAGS_DEBUG} "-G")
 
 
-  #add_subdirectory ("pset/pset1")
+  # add_subdirectory ("pset/pset1")
   add_subdirectory ("pset/pset2")
   #add_subdirectory ("pset/pset3")
   #add_subdirectory ("pset/pset4")
